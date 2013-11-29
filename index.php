@@ -1,9 +1,10 @@
 <?php
-// 1. 데이터베이스 서버에 접속
-$link=mysql_connect('localhost','root','01054818170');
-if(!$link) {
-die('Could not connect: '.mysql_error());
-}
+//1. 데이터베이스 서버에 접속
+//$link=mysql_connect('localhost','root','01054818170');
+//if(!$link) {
+//die('Could not connect: '.mysql_error());
+//}
+
 // 2. 데이터베이스 선택
 mysql_select_db('opentutorials');
 mysql_query("set session character_set_connection=utf8;");
